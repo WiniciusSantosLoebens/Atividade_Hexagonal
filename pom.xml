@@ -8,7 +8,7 @@
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>3.5.14</version> <relativePath/> </parent>
 
-	<groupId>com.andrey</groupId>
+	<groupId>com.winicius</groupId>
 	<artifactId>deadmessages</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>deadmessages</name>
@@ -54,6 +54,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
 	</dependencies>
 
